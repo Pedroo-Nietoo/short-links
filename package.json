@@ -4,14 +4,16 @@
   "description": "URL shortner",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx watch ./src/server.ts"
+    "dev": "tsx watch ./src/server.ts",
+    "setup": "tsx ./src/setup.ts"
   },
   "author": "Pedro Nieto",
   "license": "ISC",
   "dependencies": {
     "fastify": "^4.26.2",
     "postgres": "^3.4.3",
-    "redis": "^4.6.13"
+    "redis": "^4.6.13",
+    "zod": "^3.22.4"
   },
   "devDependencies": {
     "@types/node": "^20.11.30",
